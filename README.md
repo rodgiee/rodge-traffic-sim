@@ -4,7 +4,6 @@
 
 This project will simulate a Linux environment created with virtualization using QEMU/KVM/libvirt  to emulate a standard user environment on a singular Ubuntu server. For each virtualized endpoint, basic web traffic will be generated to simulate user behavior through a containerized python script using Docker and Git for version control. Traffic can be verified to be flowing correctly and analyzed with WireShark and tcpdump. Other tools will be used to expedite and optimize the process such as tmux for parallel virtual machine use and Tailscale to allow a remote VPN.
 
-![traffic-sim-2025 (3).png](attachment:51f412b9-6da1-4ce3-a4c0-ffc4cd1fd2bc:traffic-sim-2025_(3).png)
 <img src="images/traffic-sim-2025 (3).png" alt="dell.jpg" style="width:75%; height:auto"> 
 ## Introduction
 
