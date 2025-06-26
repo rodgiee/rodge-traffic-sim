@@ -110,7 +110,7 @@ sudo virt-install \
 
 ### 1.5.1 VM Setup
 
-![vm_startup 1.5.2.png](attachment:2d9f7db2-48ba-4b67-b3db-105ba33a028c:vm_startup_1.5.2.png)
+<img src="images/vm_startup 1.5.2.png"       alt="VM startup 1.5.2"       style="width:75%; height:auto">
 
 ![vm_mirror 1.5.3.png](attachment:49b84d3a-a9e0-46b5-be4a-ba841aff4c9d:vm_mirror_1.5.3.png)
 
