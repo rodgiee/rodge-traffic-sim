@@ -112,40 +112,40 @@ sudo virt-install \
 
 <img src="images/vm_startup 1.5.2.png"       alt="VM startup 1.5.2"       style="width:75%; height:auto">
 
-![vm_mirror 1.5.3.png](attachment:49b84d3a-a9e0-46b5-be4a-ba841aff4c9d:vm_mirror_1.5.3.png)
+<img src="images/vm_mirror 1.5.3.png"        alt="Mirror selection 1.5.3" style="width:75%; height:auto">
 
 - Go through general setup (language, time, hostname and passwords)
 - When going through setup always select the RECOMMENDED option (ex. select [deb.debian.org](http://deb.debian.org) mirror)
 
-![Screenshot 2025-06-25 at 3.07.19 PM.png](attachment:35e25e91-7d5a-433d-8409-6fb25814f1c1:Screenshot_2025-06-25_at_3.07.19_PM.png)
+<img src="images/vm_proxy 1.5.4.png"         alt="Proxy prompt 1.5.4"     style="width:75%; height:auto">
 
 - If prompted, can continue no need to setup this
 
-![Screenshot 2025-06-25 at 3.09.44 PM.png](attachment:8433e6c2-1c4b-489c-be40-cd2be98222f0:Screenshot_2025-06-25_at_3.09.44_PM.png)
+<img src="images/vm_part 1.5.5.png"          alt="Partition step 1.5.5"   style="width:75%; height:auto">
 
 - Use entire disk
 
-![Screenshot 2025-06-25 at 3.10.33 PM.png](attachment:7d8e9fc5-e6eb-4157-a8c4-e35066ef73cd:Screenshot_2025-06-25_at_3.10.33_PM.png)
+<img src="images/vm_part 1.5.6.png"          alt="Partition confirm 1.5.6"style="width:75%; height:auto">
 
 - Select finishing partitioning and confirm all processes with partitioning
 
-![Screenshot 2025-06-25 at 3.14.20 PM.png](attachment:6f424d6f-d03b-4dbe-8e90-f1016ddcf8d8:Screenshot_2025-06-25_at_3.14.20_PM.png)
+<img src="images/vm_configure 1.5.7.png"     alt="Configure packages 1.5.7"style="width:75%; height:auto">
 
 - No need to modify anything here, just continue
 
-![Screenshot 2025-06-25 at 4.28.50 PM.png](attachment:8654e55b-3a14-47de-8d57-8e713f505332:Screenshot_2025-06-25_at_4.28.50_PM.png)
+<img src="images/vm_grub 1.5.8.png"          alt="GRUB install 1.5.8"     style="width:75%; height:auto">
 
 - Select “Yes”
 
-![Screenshot 2025-06-25 at 4.29.17 PM.png](attachment:4480035c-3d27-40bc-b25f-5e30b5356b5f:Screenshot_2025-06-25_at_4.29.17_PM.png)
+<img src="images/vm_grub 1.5.9.png"          alt="GRUB warning 1.5.9"     style="width:75%; height:auto">
 
-![Screenshot 2025-06-25 at 4.29.41 PM.png](attachment:13b8d113-67c1-40c5-92d9-4c9a6daed437:Screenshot_2025-06-25_at_4.29.41_PM.png)
+<img src="images/vm_grub 1.5.91.png"         alt="GRUB device 1.5.91"     style="width:75%; height:auto">
 
-![Screenshot 2025-06-25 at 4.29.58 PM.png](attachment:e376cf14-206e-49c9-ab0f-1b5bfc5f1f0b:Screenshot_2025-06-25_at_4.29.58_PM.png)
+<img src="images/vm_installation 1.5.92.png" alt="Finish install 1.5.92"  style="width:75%; height:auto">
 
 ### 1.6 VM Start
 
-![Screenshot 2025-06-25 at 4.31.40 PM.png](attachment:ed1dd301-2d00-416f-a4ad-2ebc83097b3c:Screenshot_2025-06-25_at_4.31.40_PM.png)
+<img src="images/vm_start 1.6.1.png" alt="VM start 1.6.1" style="width:75%; height:auto">
 
 ```bash
 virsh start <vm-name>
@@ -153,7 +153,7 @@ virsh start <vm-name>
 
 - VM will be shut off from reboot, Start the VM Name with this command
 
-![Screenshot 2025-06-25 at 4.32.10 PM.png](attachment:d2af4b88-b37f-42bf-bd98-9eece561fa64:Screenshot_2025-06-25_at_4.32.10_PM.png)
+<img src="images/vm_start 1.6.2.png" alt="VM start 1.6.2" style="width:75%; height:auto">
 
 ```bash
 virsh console <vm-name>
@@ -161,7 +161,7 @@ virsh console <vm-name>
 
 - After start console into the VM with this command
 
-![Screenshot 2025-06-26 at 12.58.06 PM.png](attachment:7e5e16de-fc3a-4847-a51c-1d6c7493cd70:Screenshot_2025-06-26_at_12.58.06_PM.png)
+<img src="images/vm_start 1.6.3.png" alt="VM start 1.6.3" style="width:75%; height:auto">
 
 - Should be met with a login screen
 
