@@ -235,7 +235,7 @@ Wireshark is an integral tool for traffic analysis and monitoring. Now that the 
 
 ### 3.1 Install Wireshark
 
-![Screenshot 2025-06-26 at 2.52.10 PM.png](attachment:9d1e54aa-2c7d-4d8e-a628-bb44558fd347:Screenshot_2025-06-26_at_2.52.10_PM.png)
+<img src="images/wireshark_3.1.png" alt="Wireshark 3.1" style="width:75%; height:auto">
 
 - Ensure that you select the right installer based on your OS, you can install Wireshark here: [https://www.wireshark.org/download.htm](https://www.wireshark.org/download.html)l
 
@@ -251,7 +251,7 @@ sudo tcpdump -i br0 -s 65535 -w capture.pcap
 - Capture traffic from br0 which is the virtual bridge created from section 1
 - 65535 size NEEDS to be established for wireshark to be able to properly read the packet capture file
 
-![Screenshot 2025-06-26 at 2.58.36 PM.png](attachment:a6f8c35f-3c0e-4419-b933-b57b8ed89914:Screenshot_2025-06-26_at_2.58.36_PM.png)
+<img src="images/wireshark_3.2.png" alt="Wireshark 3.2" style="width:75%; height:auto">
 
 - tcpdump will begin to listen to traffic
 - CTRL + Z to stop listening for traffic
@@ -300,7 +300,7 @@ https://www.hackaday.com
 https://www.theonion.com
 ```
 
-![Screenshot 2025-06-26 at 3.05.50 PM.png](attachment:0f1b83a8-c55f-4c17-930d-02130e58a65f:Screenshot_2025-06-26_at_3.05.50_PM.png)
+<img src="images/wireshark_3.4.png" alt="Wireshark 3.4" style="width:75%; height:auto">
 
 - Inspection of Wireshark from the Info tab should show that the webiste website was queried
 - In the above example [www.yougetsignal.com](http://www.yougetsignal.com) was queried from one of my virtual machines
