@@ -5,6 +5,7 @@
 This project will simulate a Linux environment created with virtualization using QEMU/KVM/libvirt  to emulate a standard user environment on a singular Ubuntu server. For each virtualized endpoint, basic web traffic will be generated to simulate user behavior through a containerized python script using Docker and Git for version control. Traffic can be verified to be flowing correctly and analyzed with WireShark and tcpdump. Other tools will be used to expedite and optimize the process such as tmux for parallel virtual machine use and Tailscale to allow a remote VPN.
 
 <img src="images/traffic-sim-2025 (3).png" alt="dell.jpg" style="width:75%; height:auto"> 
+
 ## Introduction
 
 The project aims to deepen my understanding with networking fundamentals, practice DevOps and System Administrator concepts, and familiarize myself with relevant network engineer industry technologies and tools.
