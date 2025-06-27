@@ -197,8 +197,6 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 
 - Install Docker engine with this entire command
 
-![Screenshot 2025-06-26 at 2.35.58 PM.png](attachment:dd4e8fdc-6b3f-4b46-ac88-c4ed8b9c5232:Screenshot_2025-06-26_at_2.35.58_PM.png)
-
 ### 2.2 Pull python script
 
 ```bash
@@ -219,8 +217,6 @@ docker container ls --all
 
 - Verify that the container was built and exists
 - Take note of the container ID that was created
-
-![Screenshot 2025-06-26 at 2.42.19 PM.png](attachment:a34a3a93-b7ce-4c86-bc8f-e55f00663ee0:Screenshot_2025-06-26_at_2.42.19_PM.png)
 
 ```bash
 docker container start <container_id>
@@ -265,10 +261,6 @@ sudo scp remote_user@remote_hostname:remote_file_location host_file_location
 ```
 
 - Use this command to transfer the file from a remote SSH session to your host machine
-
-![Screenshot 2025-06-26 at 3.02.52 PM.png](attachment:6b08b3b3-4286-4767-9a77-74c8c85beebd:Screenshot_2025-06-26_at_3.02.52_PM.png)
-
-![Screenshot 2025-06-26 at 3.03.09 PM.png](attachment:8e296015-acd3-4f68-b7d6-6c0ae1029c4e:Screenshot_2025-06-26_at_3.03.09_PM.png)
 
 ### 3.4 Open capture.pcap
 
